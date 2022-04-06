@@ -12,43 +12,67 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
+    <!-- contenedor general -->
     <div class="contendor">
+        <!-- contenedor del header -->
         <nav class="header">
+            <!-- lista de los elementos del header-nav -->
             <ul class="header-list">
-                <li class="links-li" title="hola"><a href="https://mail.google.com/" class="links">Gmail</a></li>
-
-                <li class="links-li" title="hola"><a href="https://www.google.com.pe/imghp?hl=es-419&ogbl" class="links">Imagenes</a></li>
-
-                
-
+                <!-- elemento gmal -->
+                <li class="links-li" title="Gmail"><a href="https://mail.google.com/" class="links">Gmail</a></li>
+                <!-- elemento imagenes -->
+                <li class="links-li" title="Imagenes"><a href="https://www.google.com.pe/imghp?hl=es-419&ogbl" class="links">Imagenes</a></li>
+                <!-- elemento icono-menu de apps -->
                 <li>
                     <a class="icono-link"href="https://accounts.google.com/signin/v2/identifier?hl=es-419&continue=https%3A%2F%2Fwww.google.com.pe%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession">
+                        <!-- fondo del icono-menu(aperece con el el hover) -->
                         <div class="fondo-icono" >
                             <img title="Google Apps" class="icono" src="https://img.icons8.com/material-outlined/26/000000/circled-menu.png"/>
+                            <!-- contenedor de la caja de apps (aparece con el hover) -->
                             <div class="apps">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.google.com" class="gugul">Google</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com">Youtube</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com">facebook</a>
-                                    </li>
-                                </ul>
-                                
-                                
-                                
+                                <!-- contenedor dentro del contenedor de apps para ordenarlos en filas y 2 columnas -->
+                                <div class="conteiner-apps">
+                                    <ul>
+                                        <!-- elemento e icono Google -->
+                                        <li >
+                                            <a  href="https://www.google.com" ><img class="google" src="https://img.icons8.com/fluency/48/000000/google-logo.png"/>
+                                            <span>Google</span></a>
+                                        </li>
+                                        <!-- elemento e icono Youtube -->
+                                        <li>
+                                            <a href="https://www.youtube.com"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/>
+                                            <span>Youtube</span></a>
+                                        </li>
+                                        <!-- elemento e icono Google Play -->
+                                        <li>
+                                            <a href="https://www.facebook.com"><img src="https://img.icons8.com/fluency/48/000000/google-play.png"/>
+                                            <span>Google Play</span></a>
+                                        </li>
+                                        <!-- elemento e icono Gmail -->
+                                        <li>
+                                            <a href=""><img src="https://img.icons8.com/color/48/000000/gmail-new.png"/><span>Gmail</span>
+                                            </a>
+                                        </li>
+                                        <!-- elemento e icono Drive -->
+                                        <li>   
+                                            <a href=""><img src="https://img.icons8.com/color/48/000000/google-drive--v2.png"/><span>Drive</span></a>
+                                        </li>
+                                        <!-- elemento e icono Maps -->
+                                        <li>
+                                            <a href=""><img src="https://img.icons8.com/fluency/48/000000/google-maps-new.png"/><span>Maps</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            
                         </div>
+                        
                     </a>
                 </li>
-
-                <li><a href="https://accounts.google.com/signin/v2/identifier?hl=es-419&continue=https%3A%2F%2Fwww.google.com.pe%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession"><img class="perfil" src="images/WhatsApp Image 2022-04-05 at 10.50.44 AM.jpeg" ></a></li>
+                <!-- elemento Perfil de la cuenta -->
+                <li><a href="https://accounts.google.com/signin/v2/identifier?hl=es-419&continue=https%3A%2F%2Fwww.google.com.pe%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession"><img class="perfil" title="MARCO BERNA-UTEL" src="images/WhatsApp Image 2022-04-05 at 10.50.44 AM.jpeg" ></a></li>
             </ul>
         </nav>
+        <!-- inicio del Section-main -->
         <section>
             <img src="images/googlelogo_color_272x92dp.png" alt="imagen-de-google" >
             <form action="" method="post">
