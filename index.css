@@ -97,7 +97,6 @@
 .conteiner-apps{
     padding: 0;
     
-    
     width: 100%;
     height: 360px;
     
@@ -161,6 +160,7 @@
                 /* FIN DEL ELEMENTO PERFIL */
 
 /* INICIO DEL SECTION */
+
 .conteiner-section{
     width: 1850px;
     height: 500px;
@@ -179,7 +179,7 @@
     object-fit: cover;
     margin-top: 160px;
 }
-
+                /* dentro de section - inicio del buscador */
 .conteiner-form{
     display: block;
     margin-left: auto;
@@ -190,8 +190,8 @@
     border-radius: 50px;
     outline-style: solid;
     outline-width: 1px;
-    outline-color: rgb(176, 176, 176);
-   
+    outline-color: #c6c7ca;
+    
     
 }
 .icono-search, .icono-voice{
@@ -201,6 +201,7 @@
 .icono-voice:hover{
     width: 28px;
 }
+
 .conteiner-form:hover{
     box-shadow: rgb(197, 197, 197) 1px 1px 6px;
 }
@@ -216,3 +217,48 @@
     border-width: 0;
     font-size: 20px;
 }   
+                            /* dentro de section - fin del buscador */
+                    /* dentro de section - inicio de los botones */
+        
+.botones{
+    padding-top: 15px;
+
+}
+.btn{
+    margin-right: 10px ;
+    font-size: 13px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    width: 140px;
+    height: 35px;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+
+}
+.btn:hover{
+    box-shadow: 0px 0px 2px rgb(143, 141, 141);
+}
+.idiomas{
+    font-size: 12px;
+}
+.link-idioma{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.link-idioma:first-child{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.link-idioma:first-child:hover{
+    color: rgb(82, 124, 214);
+}
+.link-idioma:last-child:hover{
+    
+    color: rgb(219, 169, 30);
+}
+                            /* dentro del section - fin de los botones */
