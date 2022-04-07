@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 /*INICIO DEL HEADER*/
 .header{
@@ -96,7 +97,6 @@
 /* contenedor de las apps  */
 .conteiner-apps{
     padding: 0;
-    
     width: 100%;
     height: 360px;
     
@@ -111,7 +111,7 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
-   
+    
     width: 90px;
     height: 90px;
     
@@ -123,7 +123,7 @@
 .conteiner-apps ul a{
     color: black;
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 19px;
     text-decoration: none;
     text-align: center;
 }
@@ -132,7 +132,7 @@
 }
 .conteiner-apps ul a:hover{
     text-decoration: underline;
-    font-size: 17px;
+    font-size: 22px;
 }
 .conteiner-apps ul a:focus{
     cursor: wait;
@@ -262,3 +262,66 @@
     color: rgb(219, 169, 30);
 }
                             /* dentro del section - fin de los botones */
+                /* FIN DEL SECTION */
+
+
+                /* FOOTER */
+.footer-conteiner{
+    width: 100%;
+    height: 368px;
+    box-sizing: border-box;
+    padding-top: 270px;
+}            
+                /* primera linea */
+.firstLine{
+    width: 100%;
+    height: 48px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 25px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent ;
+    border-bottom-color: #d7d7db;
+    border-width: 1px;
+    z-index: 99;
+}
+.firstLine p{
+    color: #70757a;
+    font-size: 17px;
+
+}
+
+                /* fin de la primera linea */
+
+                /* segunda linea */
+.secondLine-footer{
+    width: 100%;
+    height: 48px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.links-left a{
+    font-size: 14px;
+    padding: 15px;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.links-rigth a{
+    font-size: 14px;
+    padding: 15px;
+    color: #70757a;
+    text-decoration: none;
+}
+.links-left a:hover,.links-rigth a:hover{
+    text-decoration: underline;
+}
+/* FIN DEL FOOTER */
