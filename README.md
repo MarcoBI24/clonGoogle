@@ -1,4 +1,3 @@
-# clonGoogle
-Identica copia de Google
-#GOOGLE
+
+# GOOGLE
 es una identica copia de la pagina de buscaque de Google...
